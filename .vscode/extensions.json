@@ -5,6 +5,7 @@
 		"esbenp.prettier-vscode",
 		"Tobermory.es6-string-html",
 		"wix.vscode-import-cost",
-		"oderwat.indent-rainbow"
+		"oderwat.indent-rainbow",
+		"bradlc.vscode-tailwindcss"
 	]
 }

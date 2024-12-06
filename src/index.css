@@ -1,3 +1,12 @@
-body {
-  background: #171717;
+:root {
+  --dark-blue:#2a445f;
+  --medium-blue:#41c3e5;
+  --light-blue:#90dbe0;
+  --orange:#f57800;
+  --ping:#f5c5d3;
+  --background:#feead1;
+
+  body {
+    background: var(--background);
+  }
 }

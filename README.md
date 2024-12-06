@@ -1,10 +1,10 @@
-# 🐾 **De Patitas a Casa** 🏠
+# 🐾 **¡Aquí estoy!** 🏠
 
-¡Bienvenidos a **De Patitas a Casa**, la aplicación que ayuda a reunir a los animales perdidos con sus dueños! 🐶🐱
+¡Bienvenidos a **¡Aquí estoy!**, la aplicación que ayuda a reunir a los animales perdidos con sus dueños! 🐶🐱
 
 ## 📱 Descripción
 
-**De Patitas a Casa** es una app que permite a los usuarios **crear anuncios** para buscar a sus mascotas perdidas y **unirse a la búsqueda** de otros animales. Además, los usuarios pueden indicar si han visto a una mascota o si pueden ayudar a encontrarla en un horario específico. Este proyecto nace para **hacer de la comunidad una red de apoyo**, ayudando a todos los animales a regresar a su hogar de la forma más rápida posible.
+**¡Aquí estoy!** es una app que permite a los usuarios **crear anuncios** para buscar a sus mascotas perdidas y **unirse a la búsqueda** de otros animales. Además, los usuarios pueden indicar si han visto a una mascota o si pueden ayudar a encontrarla en un horario específico. Este proyecto nace para **hacer de la comunidad una red de apoyo**, ayudando a todos los animales a regresar a su hogar de la forma más rápida posible.
 
 ### 🔑 Características
 
@@ -18,11 +18,11 @@
 
 ### **Paso 1:** Clona este repositorio:
 
-`git clone https://github.com/tu_usuario/de-patitas-a-casa.git`
+`git clone https://github.com/Zeida/web-aqui-estoy.git`
 
 ### **Paso 2:** Navega al directorio del proyecto:
 
-`cd de-patitas-a-casa`
+`cd web-aqui-estoy`
 
 ### **Paso 3:** Instala las dependencias:
 
