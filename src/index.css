@@ -1,14 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
 :root{
   --color-azul-medio: #004481;
   --color-azul-oscuro: #072146;
   --color-azul-claro: #1973b8;
   --color-celeste: #d4edfc;
 
-
 }
 
-body{
-  margin: auto;
+html, body{
+  height: 100%;
+  margin: 0; 
+  font-family: Roboto, sans-serif;
+}
+
+.main-tittle {
+  font-family: "Luckiest Guy", cursive;
+  font-size: 40px;
+  font-style: normal;
+
 }
 
 /* Contenedor principal para las tarjetas de testimonio */
@@ -27,7 +38,7 @@ body{
 /* Contenedor de testimonios */
 .landing-page-3.testimonials {
   width: 100%;
-  height: auto;  /* Ajusta la altura según el contenido */
+  height: auto; 
   flex-flow: row wrap;
   justify-content: space-evenly;
   gap: 20px;
@@ -38,10 +49,9 @@ body{
 .testimony-card {
   height: 441px;
   width: 320px;
-  background-color: var(--color-azul-medio);
+  background-color: var(--color-azul-claro);
   border-radius: 25px;
   overflow: hidden;
-  padding: 10px;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -53,6 +63,7 @@ body{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  margin-left: 15px;
 }
 
 hgroup{
@@ -79,7 +90,7 @@ hgroup{
 
 /* Estilo para la dirección donde se perdió la mascota */
 .lost-address {
-  margin:5px 0 10px; 
+  margin:5px 0; 
 }
 
 /* Cuerpo del testimonio */
@@ -94,12 +105,13 @@ hgroup{
 .testimony-pic {
   width: auto;
   height: 191px;
+  object-fit: fill;
   
 }
 
 /* Mensaje de agradecimiento del dueño */
 .owner-thanks {
-
+  margin:15px
 }
 
 /* Estadísticas del testimonio */
@@ -122,12 +134,6 @@ hgroup{
 .people svg {
   height: 25px;
   width: 25px;
-}
-
-/* Estilo para los íconos de vistas y personas */
-.views svg,
-.people svg {
- 
 }
 
 /* Estilo para los números de vistas y colaboraciones */
@@ -158,7 +164,12 @@ hgroup{
   font-size: 20px;
   display:flex;
   flex-direction: column;
- 
+}
+
+.help-section .section-tittle,
+.more-info-section .section-tittle,
+.about-us-section .section-tittle {
+  font-weight: bold;
 }
 
 .footer-menu a {
@@ -170,6 +181,7 @@ hgroup{
   justify-content: center;
   font-weight: bold;
   font-size: 25px;
+  margin-top: 80px;
 }
 
 /* Responsividad */

@@ -6,7 +6,7 @@ const testimonials = [
       lostAddress: "Ofra, Tenerife"
     },
     testimonyBody: {
-      testimonyPic: "images/testimony1.jpg",
+      testimonyPic: "images/testimony1.webp",
       ownerThanks: "Gracias a esta maravillosa comunidad, encontramos a Max en menos de 48 horas. ¡No puedo expresar mi gratitud suficiente!"
     },
     testimonyCardStats: {
@@ -36,7 +36,7 @@ const testimonials = [
       lostAddress: "Telde, Las Palmas"
     },
     testimonyBody: {
-      testimonyPic: "images/testimony3.jpg",
+      testimonyPic: "images/testimony3.webp",
       ownerThanks: "Nunca pensé que volvería a ver a Coco. ¡Gracias a todos los que compartieron y ayudaron en la búsqueda!"
     },
     testimonyCardStats: {
