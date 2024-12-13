@@ -22,11 +22,16 @@ html, body{
 
 }
 
+.header {
+  display: flex;
+}
+
 /**/
 .landing-page-1 {
   display:flex;
   background: var(--color-celeste);
-  
+  flex-direction: row;
+
 }
 
 /* Contenedor principal para las tarjetas de testimonio */
