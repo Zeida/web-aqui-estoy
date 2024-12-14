@@ -26,13 +26,31 @@ html, body{
   display: flex;
 }
 
-/**/
+/*Contener principal de la presentación inicial de la web*/
 .landing-page-1 {
-  display:flex;
+  display: flex;
   background: var(--color-celeste);
   flex-direction: row;
 
 }
+
+
+.landing-page-2 {
+  display:flex
+  background: var(--color-celeste);
+
+  /*no se por que no funciona el nesting*/
+  & .tittle-instructions {
+    display: flex;
+    justify-content: center;
+  }
+
+  & .bottom-join {
+
+  }
+}
+
+
 
 /* Contenedor principal para las tarjetas de testimonio */
 .landing-page-3 {
