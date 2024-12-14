@@ -45,9 +45,24 @@ html, body{
     justify-content: center;
   }
 
-  & .bottom-join {
+  & .section-card {
+    display:flex;
+    /*flex-direction: row;*/
+    justify-content: space-around;
 
+    
   }
+
+  & .bottom-join {
+    background: var(--color-azul-oscuro);
+    color: var(--color-celeste);
+  }
+}
+ 
+& .instructions {
+  padding: 2rem;
+  background-color: var(--color-azul-claro);
+  color: var(--color-celeste);
 }
 
 
