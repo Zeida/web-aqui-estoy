@@ -26,11 +26,7 @@ html, body{
   display: flex;
 }
 
-<<<<<<< HEAD
-/*Contener principal de la presentación inicial de la web*/
-=======
-/*  */
->>>>>>> 995f88857631c87c47d88a0f8fb36deabb83c74e
+/* Contener principal de la presentación inicial de la web */
 .landing-page-1 {
   display: flex;
   background: var(--color-celeste);
@@ -38,40 +34,6 @@ html, body{
 
 }
 
-<<<<<<< HEAD
-
-.landing-page-2 {
-  display:flex
-  background: var(--color-celeste);
-
-  /*no se por que no funciona el nesting*/
-  & .tittle-instructions {
-    display: flex;
-    justify-content: center;
-  }
-
-  & .section-card {
-    display:flex;
-    /*flex-direction: row;*/
-    justify-content: space-around;
-
-    
-  }
-
-  & .bottom-join {
-    background: var(--color-azul-oscuro);
-    color: var(--color-celeste);
-  }
-}
- 
-& .instructions {
-  padding: 2rem;
-  background-color: var(--color-azul-claro);
-  color: var(--color-celeste);
-}
-
-
-=======
 .landing-page-2 .title{
   display: flex;
   flex-direction: row;
@@ -148,6 +110,7 @@ html, body{
   font-size: 40px;
   color:var(--color-celeste);
 }
+
 >>>>>>> 995f88857631c87c47d88a0f8fb36deabb83c74e
 
 /* Contenedor principal para las tarjetas de testimonio */
