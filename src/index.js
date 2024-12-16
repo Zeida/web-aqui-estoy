@@ -46,6 +46,22 @@ const testimonials = [
   }
 ];
 
+const usingBenefits = [
+  {
+    title: "Crea un anuncio en minutos",
+    description: "Cuéntanos sobre tu mascota, agrega fotos y detalles. ¡Así todos pueden ayudarte!"
+  },
+  {
+    title: "Hazte parte de la búsqueda:",
+    description: "Echa un vistazo a los anuncios de otros usuarios. Si ves a una mascota que te suena familiar, ¡avísales!"
+  },
+  {
+    title: "Recibe alertas y actualizaciónes instantáneas",
+    description: "Mantente informado sobre cualquier nueva pista o avistamiento, ¡sin perder ningún segundo!"
+  }
+
+];
+
 const testimonialsContainer = document.querySelector(".landing-page-3.testimonials");
 
 testimonials.forEach(testimony => {
@@ -79,4 +95,10 @@ testimonials.forEach(testimony => {
           </div>
         </div>
       </div>`;
+});
+
+const usingBenefitsContainer = document.querySelector(".card-container");
+
+usingBenefits.forEach(benefits => {
+  usingBenefitsContainer.innerHTML += `<div class='card'><h2>${benefits.title}</h2><p>${benefits.description}</p></h2></div>`;
 });
