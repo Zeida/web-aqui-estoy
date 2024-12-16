@@ -32,6 +32,10 @@ html, body{
   background: var(--color-celeste);
   flex-direction: row;
 
+  & .girlCat {
+    max-height: 500px;
+  }
+
 }
 
 .landing-page-2 .title{
